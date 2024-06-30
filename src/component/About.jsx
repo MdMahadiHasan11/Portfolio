@@ -37,7 +37,7 @@ const About = () => {
 
                     className="w-full lg:w-1/2 lg:p-8">
                     <div className="flex items-center justify-center">
-                        <p> <span className='text-3xl font-bold'>Hi , I'm Md Mahadi Hasan</span> a passionate MERN stack developer with a strong foundation in modern web development technologies. My expertise lies in crafting scalable web applications using React.js, JavaScript (ES6+), and Tailwind CSS for sleek, responsive designs. With a solid grasp of HTML5 and CSS3, I ensure seamless integration of UI/UX principles into every project.
+                        <p> <span className='lg:text-3xl text-xl font-bold'>Hi , I'm Md Mahadi Hasan</span> a passionate MERN stack developer with a strong foundation in modern web development technologies. My expertise lies in crafting scalable web applications using React.js, JavaScript (ES6+), and Tailwind CSS for sleek, responsive designs. With a solid grasp of HTML5 and CSS3, I ensure seamless integration of UI/UX principles into every project.
 
                             <p className='mt-4'> In backend development, I leverage the power of MongoDB for efficient data management and Firebase for real-time database capabilities. My server-side proficiency includes Node.js and Express.js, allowing me to build robust APIs and deliver optimal performance.</p></p>
 
@@ -47,16 +47,16 @@ const About = () => {
                         <a
                             href={downloadUrl}
                             target="_blank"
-                            className="w-48 btn bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-800 transition-colors duration-300 ease-in-out flex justify-center items-center"
+                            className="w-32 btn bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-800 transition-colors duration-300 ease-in-out flex justify-center items-center"
                         >
-                            <FaDownload className='mr-2' />Download Resume
+                            <FaDownload className='mr-2' />Resume
                         </a>
                         <a
                             href={downloadUrl}
                             target="_blank"
-                            className="w-48 btn bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-800 transition-colors duration-300 ease-in-out flex justify-center items-center"
+                            className="w-32 btn bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-800 transition-colors duration-300 ease-in-out flex justify-center items-center"
                         >
-                            <FaDownload className='mr-2' />Download CV
+                            <FaDownload className='mr-2' /> CV
                         </a>
                     </div>
 
