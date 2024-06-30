@@ -112,7 +112,7 @@ const Banner = () => {
                     </div>
 
                 </div>
-                <div className=" w-1/2 md:p-14 lg:p-24 p-10">
+                <div className=" w-full lg:w-1/2 md:p-14 lg:p-24 p-10">
                     <div className="flex justify-center">
                         <motion.img
                             initial={{ x: 100, opacity: 0 }}
