@@ -151,7 +151,7 @@ const Technology = () => {
                                 spaceBetween: 40,
                             },
                             '@2.00': { // For very large screens
-                                slidesPerView: 8,
+                                slidesPerView: 7,
                                 spaceBetween: 50,
                             },
                         }}

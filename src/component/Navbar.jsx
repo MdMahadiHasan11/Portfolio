@@ -8,7 +8,7 @@ const Navbar = () => {
                 <p className="text-xl font-bold"></p>
             </div>
 
-            <div className="p-4 space-x-6 font-semibold">
+            <div className="p-4 md:space-x-6 space-x-3 font-semibold">
                 <a href="#home" className='text-cyan-500'> Home</a>
                 <a href="#about" >About Me</a>
                 <a href="#skills">Skills</a>
