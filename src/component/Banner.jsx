@@ -30,7 +30,7 @@ const Banner = () => {
                             variants={container(0)}
                             initial='hidden'
                             animate='visible'
-                            className="pb-16 text-6xl font-semibold tracking-tight lg:mt-16">
+                            className="pb-10 md:text-6xl text-4xl  font-semibold tracking-tight lg:mt-16">
                             Mahadi Hasan
                             {/* <svg fill="none" viewBox="0 0 15 15" height="1em" width="1em" {...props}>
                                 <path
@@ -43,7 +43,7 @@ const Banner = () => {
                             variants={container(0.5)}
                             initial="hidden"
                             animate='visible'
-                            className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent">
+                            className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text md:text-4xl text-2xl   tracking-tight text-transparent">
                             {/* Full Stack Developer */}
                             <ReactTyped
                                 strings={[
@@ -84,22 +84,23 @@ const Banner = () => {
                             </div>
 
 
-                        <motion.p variants={container(1.5)} initial="hidden" animate='visible' className="my-2 flex justify-center items-center gap-4">
-                            <div className=' '>
+                        <motion.p variants={container(1.5)} initial="hidden" animate='visible' className="pb-8 my-2 flex justify-center items-center gap-4">
+                            <div className=' w-32 '>
                                 <a
                                     href={downloadUrl}
                                     target="_blank"
                                     className="btn bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-800 transition-colors duration-300 ease-in-out flex justify-center items-center"
                                 >
-                                    <FaDownload className='mr-2' />Download CV
+                                    <FaDownload className='mr-2' />CV
                                 </a>
                             </div>
-                            <div>
+                            <div className=' w-32 '>
                                 <a
                                     href='#contract'
                                     className="btn bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-800 transition-colors duration-300 ease-in-out flex justify-center items-center"
                                 >
                                     <FaHireAHelper className='' />Hire Me
+                                    
                                 </a>
                             </div>
 
@@ -111,7 +112,7 @@ const Banner = () => {
                     </div>
 
                 </div>
-                <div className="w-full lg:w-1/2 md:p-14 lg:p-24">
+                <div className="w-full lg:w-1/2 md:p-14 lg:p-24 p-10">
                     <div className="flex justify-center">
                         <motion.img
                             initial={{ x: 100, opacity: 0 }}

@@ -47,14 +47,14 @@ const About = () => {
                         <a
                             href={downloadUrl}
                             target="_blank"
-                            className="btn bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-800 transition-colors duration-300 ease-in-out flex justify-center items-center"
+                            className="w-48 btn bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-800 transition-colors duration-300 ease-in-out flex justify-center items-center"
                         >
                             <FaDownload className='mr-2' />Download Resume
                         </a>
                         <a
                             href={downloadUrl}
                             target="_blank"
-                            className="btn bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-800 transition-colors duration-300 ease-in-out flex justify-center items-center"
+                            className="w-48 btn bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-800 transition-colors duration-300 ease-in-out flex justify-center items-center"
                         >
                             <FaDownload className='mr-2' />Download CV
                         </a>

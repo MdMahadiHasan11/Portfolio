@@ -5,7 +5,7 @@ const Navbar = () => {
     return (
         <div className="flex  items-center justify-between pt-6">
             <div>
-                <p className="text-xl font-bold">Md Mahadi Hasan</p>
+                <p className="text-xl font-bold"></p>
             </div>
 
             <div className="p-4 space-x-6 font-semibold">

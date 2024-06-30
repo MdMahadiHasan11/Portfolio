@@ -63,20 +63,20 @@ const Technology = () => {
                         style={{ boxShadow: '4px 4px 6px rgba(0, 255, 255, 0.7)' }}
                         className="lg:grid  md:grid lg:grid-cols-3 md:grid-cols-2 gap-8 px-10 py-5 ">
                         <div className="">
-                            <div className="flex justify-between font-bold w-56"><p>React</p> <p>80%</p></div>
-                            <progress className="progress progress-success w-56" value="80" max="100"></progress>
+                            <div className="flex justify-between font-bold w-56"><p>React</p> <p>82%</p></div>
+                            <progress className="progress progress-success w-56" value="82" max="100"></progress>
                         </div>
                         <div className="">
                             <div className="flex justify-between font-bold w-56"><p>JavaScript</p> <p>75%</p></div>
-                            <progress className="progress progress-success w-56" value="80" max="100"></progress>
+                            <progress className="progress progress-success w-56" value="75" max="100"></progress>
                         </div>
                         <div className="">
                             <div className="flex justify-between font-bold w-56"><p>Tailwind</p> <p>82%</p></div>
-                            <progress className="progress progress-success w-56" value="80" max="100"></progress>
+                            <progress className="progress progress-success w-56" value="82" max="100"></progress>
                         </div>
                         <div className="">
                             <div className="flex justify-between font-bold w-56"><p>CSS3</p> <p>75%</p></div>
-                            <progress className="progress progress-success w-56" value="80" max="100"></progress>
+                            <progress className="progress progress-success w-56" value="75" max="100"></progress>
                         </div>
                         <div className="">
                             <div className="flex justify-between font-bold w-56"><p>HTML5</p> <p>80%</p></div>
@@ -84,20 +84,20 @@ const Technology = () => {
                         </div>
                         <div className="">
                             <div className="flex justify-between font-bold w-56"><p>Firebase</p> <p>70%</p></div>
-                            <progress className="progress progress-success w-56" value="80" max="100"></progress>
+                            <progress className="progress progress-success w-56" value="70" max="100"></progress>
                         </div>
 
                         <div >
                             <div className="flex justify-between font-bold w-56"><p>MongoDB</p> <p>75%</p></div>
-                            <progress className="progress progress-success w-56" value="80" max="100"></progress>
+                            <progress className="progress progress-success w-56" value="75" max="100"></progress>
                         </div>
                         <div className="">
                             <div className="flex justify-between font-bold w-56"><p>Node.JS</p> <p>65%</p></div>
-                            <progress className="progress progress-success w-56" value="80" max="100"></progress>
+                            <progress className="progress progress-success w-56" value="65" max="100"></progress>
                         </div>
                         <div className="">
                             <div className="flex justify-between font-bold w-56"><p>Express.JS</p> <p>65%</p></div>
-                            <progress className="progress progress-success w-56" value="80" max="100"></progress>
+                            <progress className="progress progress-success w-56" value="65" max="100"></progress>
                         </div>
                     </div>
                 </div>
@@ -110,6 +110,7 @@ const Technology = () => {
 
 
             {/* 2nd */}
+            
 
             <motion.div
                 whileInView={{ opacity: 1, y: 0 }}
@@ -117,9 +118,6 @@ const Technology = () => {
                 transition={{ duration: 0.5 }}
             >
                 <>
-
-
-
                     <Swiper
                         slidesPerView={7}
                         spaceBetween={10}
@@ -132,25 +130,29 @@ const Technology = () => {
                         freeMode={true}
                         freeModeMomentum={false}
                         breakpoints={{
-                            '@0.00': {
-                                slidesPerView: 1,
+                            '@0.00': { // For very small screens
+                                slidesPerView: 3,
                                 spaceBetween: 10,
                             },
-                            '@0.75': {
-                                slidesPerView: 2,
+                            '@0.50': { // For small screens
+                                slidesPerView: 3,
+                                spaceBetween: 10,
+                            },
+                            '@0.75': { // For medium-small screens
+                                slidesPerView: 4,
                                 spaceBetween: 20,
                             },
-                            '@1.00': {
-                                slidesPerView: 3,
+                            '@1.00': { // For medium screens
+                                slidesPerView: 5,
+                                spaceBetween: 30,
+                            },
+                            '@1.50': { // For large screens
+                                slidesPerView: 6,
                                 spaceBetween: 40,
                             },
-                            '@1.50': {
-                                slidesPerView: 4,
+                            '@2.00': { // For very large screens
+                                slidesPerView: 8,
                                 spaceBetween: 50,
-                            },
-                            '@2.00': {
-                                slidesPerView: 7,
-                                spaceBetween: 10,
                             },
                         }}
                         modules={[Autoplay]}
@@ -167,7 +169,6 @@ const Technology = () => {
                                 <RiReactjsLine className="text-7xl text-blue-500"></RiReactjsLine>
                                 <p>React</p>
                             </motion.div>
-
                         </SwiperSlide>
 
                         {/* 2 */}
@@ -209,6 +210,7 @@ const Technology = () => {
                             </motion.div>
                         </SwiperSlide>
 
+                        {/* 5 */}
                         <SwiperSlide className=" my-4">
                             <motion.div
                                 variants={container(2)}
@@ -221,6 +223,7 @@ const Technology = () => {
                             </motion.div>
                         </SwiperSlide>
 
+                        {/* 6 */}
                         <SwiperSlide className=" my-4">
                             <motion.div
                                 variants={container(2.5)}
@@ -233,6 +236,7 @@ const Technology = () => {
                             </motion.div>
                         </SwiperSlide>
 
+                        {/* 7 */}
                         <SwiperSlide className=" my-4">
                             <motion.div
                                 variants={container(1.5)}
@@ -245,6 +249,7 @@ const Technology = () => {
                             </motion.div>
                         </SwiperSlide>
 
+                        {/* 8 */}
                         <SwiperSlide className=" my-4">
                             <motion.div
                                 variants={container(2)}
@@ -257,6 +262,7 @@ const Technology = () => {
                             </motion.div>
                         </SwiperSlide>
 
+                        {/* 9 */}
                         <SwiperSlide className=" my-4">
                             <motion.div
                                 variants={container(2.5)}
@@ -269,6 +275,7 @@ const Technology = () => {
                             </motion.div>
                         </SwiperSlide>
 
+                        {/* 10 */}
                         <SwiperSlide className=" my-4">
                             <motion.div
                                 variants={container(1.5)}
@@ -281,6 +288,7 @@ const Technology = () => {
                             </motion.div>
                         </SwiperSlide>
 
+                        {/* 11 */}
                         <SwiperSlide className=" my-4">
                             <motion.div
                                 variants={container(2)}
@@ -293,6 +301,7 @@ const Technology = () => {
                             </motion.div>
                         </SwiperSlide>
 
+                        {/* 12 */}
                         <SwiperSlide className=" my-4">
                             <motion.div
                                 variants={container(2.5)}
@@ -305,6 +314,7 @@ const Technology = () => {
                             </motion.div>
                         </SwiperSlide>
 
+                        {/* 13 */}
                         <SwiperSlide className=" my-4">
                             <motion.div
                                 variants={container(2)}
@@ -317,10 +327,11 @@ const Technology = () => {
                             </motion.div>
                         </SwiperSlide>
                     </Swiper>
-
-
                 </>
             </motion.div>
+
+
+
 
 
         </div>
