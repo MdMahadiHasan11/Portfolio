@@ -1,0 +1,55 @@
+[
+    {
+        "name": "MedicineWorld",
+        "title": "Multi-Vendor Medicine Selling Website",
+        "project_type": "(Full Stack)",
+        "images": ["https://i.ibb.co/2yhs5sd/med1.png", "image2.jpg"],
+        "times": "01 June 2024 - Present",
+        "features": [
+            "Users can purchase medicines, view purchase history, and download it.",
+            "Sellers can add, update, and delete medicines.",
+            "Sellers can request advertisements for their medicines."
+        ],
+        "technology": " React, JavaScript, HTML, Tailwind CSS, CSS3, Node.js, Express.js, MongoDB, Firebase.",
+        "links": ["https://medicine-world-b0afb.web.app/", "https://github.com/MdMahadiHasan11/Medicine-world-server", "https://github.com/MdMahadiHasan11/Medicine-world-clint"]
+    },
+    {
+        "name": "HelpNexus",
+        "title": "Volunteer management Website",
+        "project_type": "(Full Stack)",
+        "images": ["https://i.ibb.co/PjpjjWQ/hel3.png", "image4.jpg"],
+        "times": "10 May 2024 – 30 May 2024",
+        "features": [
+            "User-friendly platform for volunteer management where a user can create a volunteer need post, update and delete a post, a user can be a volunteer for others post.",
+            "A user sees all volunteers post and change page layout. (grid and table format)."
+        ],
+        "technology": "React, JavaScript, HTML, Tailwind CSS, CSS3, Node.js, Express.js, MongoDB, Firebase.",
+        "links": ["https://helpnexus-9cac0.web.app/", "https://github.com/MdMahadiHasan11/HelpNexus_Server-Volunteer_Management-", "https://github.com/MdMahadiHasan11/HelpNexus_Clint-Volunteer_Management-"]
+    },
+    {
+        "name": "CraftifyHub",
+        "title": "Art and Craft store Website",
+        "project_type": "(Full Stack)",
+        "images": ["https://i.ibb.co/c6sTMWQ/carf3.png", "image6.jpg"],
+        "times": "27 April 2024 – 30 April 2024",
+        "features": [
+            "Investors must provide added updates and delete their product.",
+            "If the user does not register or logged, they cannot Added, updated and deleted any items."
+        ],
+        "technology": "React, JavaScript, HTML, Tailwind CSS, CSS3, Node.js, Express.js, MongoDB, Firebase.",
+        "links": ["https://art-craft-a0dd9.web.app/", "https://github.com/MdMahadiHasan11/Art-craft-server","https://github.com/MdMahadiHasan11/Art-craft-clint"]
+    },
+    {
+        "name": "LivingNexus",
+        "title": "Real estate management",
+        "project_type": "(Front-End)",
+        "images": ["https://i.ibb.co/QQMNRxt/liv3.png", "image6.jpg"],
+        "times": "16 April - 28 April",
+        "features": [
+            " The website enables users to change information, user can update information, user also can see Profile picture.",
+            "The website enables users to login authentication. Users can login with email and password, with google and with GitHub."
+        ],
+        "technology": "React, JavaScript, HTML, Tailwind CSS, CSS3, Firebase.",
+        "links": ["https://estate-0909.netlify.app/", "https://github.com/MdMahadiHasan11/Real-estate-residential"]
+    }
+]
