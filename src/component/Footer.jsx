@@ -42,7 +42,7 @@ const Footer = () => {
           </div> */}
         <div className="flex justify-center items-center gap-3 my-4">
           <div className="p-4 space-x-6 font-semibold">
-      
+          <a href="" >Home</a>
             <a href="#about" >About Me</a>
             <a href="#skills">Skills</a>
             {/* <a href="#services">Services</a> */}
@@ -59,7 +59,7 @@ const Footer = () => {
             <a href="https://www.facebook.com/HasanGulabo/" target="_blank" rel="noopener noreferrer" className=" text-3xl">
               <FaFacebook />
             </a>
-            <a href="" target="_blank" rel="noopener noreferrer" className="text-blue-700 text-3xl">
+            <a href="www.linkedin.com/in/mdmahadi-hasan-bd75" target="_blank" rel="noopener noreferrer" className="text-blue-700 text-3xl">
               <FaLinkedin />
             </a>
             <a href="https://github.com/MdMahadiHasan11" target="_blank" rel="noopener noreferrer" className="text-gray-800 text-3xl">

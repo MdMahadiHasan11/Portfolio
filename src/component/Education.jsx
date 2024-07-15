@@ -37,13 +37,13 @@ const Education = () => {
                         transition={{ duration: 0.5 }}
                         style={{ boxShadow: '4px 4px 6px rgba(0, 255, 255, 0.7)' }}
                         className="w-full max-w-xl lg:w-3/4">
-                        <h6 className="mb-2 p-10 flex justify-center items-center gap-8 ">
-                            <div className="text-7xl">
-                                <FaUniversity></FaUniversity>
+                        <h6 className="mb-2 p-10 md:flex justify-center items-center gap-8 ">
+                            <div className="text-7xl flex justify-center">
+                                <FaUniversity ></FaUniversity>
                             </div>
                             <div>
-                                <p className="font-semibold text-lg">Bachelor of Science in Computer Science and Engineering</p>
-                                <p>Pabna University of Science & Technology</p>
+                                <p className="font-semibold md:text-lg ">Bachelor of Science in Computer Science and Engineering</p>
+                                <p className="text-sm mt-4">Pabna University of Science & Technology</p>
                             </div>
 
                             {/* ex.role -{" "} */}
@@ -74,13 +74,13 @@ const Education = () => {
                         transition={{ duration: 0.5 }}
                         style={{ boxShadow: '4px 4px 6px rgba(0, 255, 255, 0.7)' }}
                         className="w-full max-w-xl lg:w-3/4">
-                        <h6 className="mb-2 p-10 flex  items-center gap-8 ">
-                            <div className="text-7xl">
+                        <h6 className="mb-2 p-10 md:flex  items-center gap-8 ">
+                            <div className="text-7xl flex justify-center">
                                 <LuSchool></LuSchool>
                             </div>
-                            <div>
-                                <p className="font-semibold text-lg">Higher Secondary Certificate</p>
-                                <p>Ishwardi Govt College, Pabna</p>
+                            <div className="">
+                                <p className="font-semibold md:text-lg">Higher Secondary Certificate</p>
+                                <p className="text-sm mt-4">Ishwardi Govt College, Pabna</p>
                             </div>
 
                             {/* ex.role -{" "} */}

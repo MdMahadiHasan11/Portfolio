@@ -7,8 +7,11 @@ import { FaDownload, FaFacebook, FaGithub, FaHireAHelper, FaLinkedin } from 'rea
 
 
 const Banner = () => {
-    const fileId = '1oNUGP8H-CfbTWsUVvSRu_KR6DRUu7SFC';
+    // const fileId = '1oNUGP8H-CfbTWsUVvSRu_KR6DRUu7SFC';
+    // const downloadUrl = `https://drive.google.com/uc?export=download&id=${fileId}`;
+    const fileId = '1SKZr83I_z51s5byUQZTCq5KjrZrTM1va';
     const downloadUrl = `https://drive.google.com/uc?export=download&id=${fileId}`;
+
 
     const container = (time) => ({
         hidden: { x: -100, opacity: 0 },
@@ -71,17 +74,17 @@ const Banner = () => {
 
 
                         <div className="flex justify-center items-center my-4 gap-3">
-                                <a href="https://www.facebook.com/HasanGulabo/" target="_blank" rel="noopener noreferrer" className=" text-2xl">
-                                    <FaFacebook />
-                                </a>
-                                <a href="" target="_blank" rel="noopener noreferrer" className="text-blue-700 text-2xl">
-                                    <FaLinkedin />
-                                </a>
-                                <a href="https://github.com/MdMahadiHasan11" target="_blank" rel="noopener noreferrer" className="text-gray-800 text-2xl">
-                                    <FaGithub />
-                                </a>
-                               
-                            </div>
+                            <a href="https://www.facebook.com/HasanGulabo/" target="_blank" rel="noopener noreferrer" className=" text-2xl">
+                                <FaFacebook />
+                            </a>
+                            <a href="www.linkedin.com/in/mdmahadi-hasan-bd75" target="_blank" rel="noopener noreferrer" className="text-blue-700 text-2xl">
+                                <FaLinkedin />
+                            </a>
+                            <a href="https://github.com/MdMahadiHasan11" target="_blank" rel="noopener noreferrer" className="text-gray-800 text-2xl">
+                                <FaGithub />
+                            </a>
+
+                        </div>
 
 
                         <motion.p variants={container(1.5)} initial="hidden" animate='visible' className="pb-8 my-2 flex justify-center items-center gap-4">
@@ -100,7 +103,7 @@ const Banner = () => {
                                     className="btn bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-800 transition-colors duration-300 ease-in-out flex justify-center items-center"
                                 >
                                     <FaHireAHelper className='' />Hire Me
-                                    
+
                                 </a>
                             </div>
 
@@ -110,16 +113,18 @@ const Banner = () => {
 
 
                     </div>
+                    {/* https://i.ibb.co/tXmcsDh/IMG20211202111133.jpg */}
 
                 </div>
-                <div className=" w-full lg:w-1/2 md:p-14 lg:p-24 p-10">
+                
+                <div className="w-full lg:w-1/2 md:p-14 lg:p-24 p-10 ">
                     <div className="flex justify-center">
                         <motion.img
                             initial={{ x: 100, opacity: 0 }}
                             animate={{ x: 0, opacity: 1 }}
                             transition={{ duration: 1, delay: 1.2 }}
                             style={{ boxShadow: '4px 4px 6px rgba(0, 255, 255, 0.7)' }}
-                            className='rounded-full' src='https://i.ibb.co/tXmcsDh/IMG20211202111133.jpg' alt="Mahadi Hasan Image" />
+                            className='w-2/3 rounded-full' src='https://i.ibb.co/dpYd0xF/1688974222486.jpg' alt="Mahadi Hasan Image" />
                     </div>
                 </div>
 

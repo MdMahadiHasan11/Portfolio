@@ -96,7 +96,7 @@ const Contract = () => {
                                 <a href="https://www.facebook.com/HasanGulabo/" target="_blank" rel="noopener noreferrer" className=" text-3xl">
                                     <FaFacebook />
                                 </a>
-                                <a href="" target="_blank" rel="noopener noreferrer" className="text-blue-700 text-3xl">
+                                <a href="www.linkedin.com/in/mdmahadi-hasan-bd75" target="_blank" rel="noopener noreferrer" className="text-blue-700 text-3xl">
                                     <FaLinkedin />
                                 </a>
                                 <a href="https://github.com/MdMahadiHasan11" target="_blank" rel="noopener noreferrer" className="text-gray-800 text-3xl">

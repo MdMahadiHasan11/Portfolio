@@ -6,19 +6,25 @@ import { motion } from "framer-motion"
 const About = () => {
 
 
-    const fileId = '1oNUGP8H-CfbTWsUVvSRu_KR6DRUu7SFC';
+    // const fileId = '1oNUGP8H-CfbTWsUVvSRu_KR6DRUu7SFC';
+    // const downloadUrl = `https://drive.google.com/uc?export=download&id=${fileId}`;
+    const fileId = '1SKZr83I_z51s5byUQZTCq5KjrZrTM1va';
     const downloadUrl = `https://drive.google.com/uc?export=download&id=${fileId}`;
+
+    const fileId2 = '1ADrDdFwe0VW_k-ZqGPW31lfiLFSi_gXI';
+    const downloadUrl2 = `https://drive.google.com/uc?export=download&id=${fileId2}`;
+
 
 
 
     return (
-        <div id='about'  className='border-b pt-5 border-neutral-900 pb-4'>
-            <motion.div 
+        <div id='about' className='border-b pt-5 border-neutral-900 pb-4'>
+            <motion.div
                 whileInView={{ opacity: 1, y: 0 }}
                 initial={{ opacity: 0, y: -100 }}
                 transition={{ duration: 0.5 }}
             >
-                <h2  className="my-10 text-center text-4xl">
+                <h2 className="my-10 text-center text-4xl">
 
                     About Me
                     {/* <span className="text-neutral-500">logy</span> */}
@@ -29,7 +35,7 @@ const About = () => {
 
             {/* body */}
 
-            <div  className="flex flex-wrap">
+            <div className="flex flex-wrap">
                 <motion.div
                     whileInView={{ opacity: 1, x: 0 }}
                     initial={{ opacity: 0, x: -100 }}
@@ -45,7 +51,7 @@ const About = () => {
                     </div>
                     <div className='flex  gap-4 mt-8'>
                         <a
-                            href={downloadUrl}
+                            href={downloadUrl2}
                             target="_blank"
                             className="w-32 btn bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-800 transition-colors duration-300 ease-in-out flex justify-center items-center"
                         >
@@ -72,11 +78,11 @@ const About = () => {
                     transition={{ duration: 0.5 }}
 
                     className="w-full lg:w-1/2" >
-                    <div 
-                    style={{ boxShadow: '4px 4px 6px rgba(0, 255, 255, 0.7)' }}
-                    className='p-10 mt-6'>
+                    <div
+                        style={{ boxShadow: '4px 4px 6px rgba(0, 255, 255, 0.7)' }}
+                        className='p-10 mt-6'>
                         <p className='text-lg font-semibold'>
-                        Why Hire Me?
+                            Why Hire Me?
                         </p>
                         <ul className='list-disc ml-16'>
                             <li>Expertise in Modern Web Development</li>
